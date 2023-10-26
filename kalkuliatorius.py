@@ -14,8 +14,6 @@ while True:
         continue
     ivestis1 = float(input("Įveskite pirmąjį skaičių: "))
     ivestis2 = float(input("Įveskite antrajį skaičių: "))
-    if pasirinkimas == "1":
-        print(f"Jūsų įvestų skaičių suma: {ivestis1 + ivestis2}")
     if pasirinkimas == "2":
         print(f"Jūsų įvestų skaičių skirtumas: {ivestis1 - ivestis2}")
     if pasirinkimas == "4":
