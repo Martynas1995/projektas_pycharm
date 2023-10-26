@@ -20,3 +20,5 @@ while True:
         print(f"Jūsų įvestų skaičių skirtumas: {ivestis1 - ivestis2}")
     if pasirinkimas == "3":
         print(f"Jūsų įvestų skaičių sandauga: {ivestis1 * ivestis2}")
+    if pasirinkimas == "4":
+        print(f"Jūsų įvestų skaičių dalmuo: {ivestis1 / ivestis2}")
