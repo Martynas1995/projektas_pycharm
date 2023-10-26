@@ -9,3 +9,10 @@ while True:
     if pasirinkimas == "5":
         print("Jūs išėjote iš programos.")
         break
+    if pasirinkimas not in ("1", "2", "3", "4"):
+        print("Tokio pasirinkimo nėra")
+        continue
+    ivestis1 = float(input("Įveskite pirmąjį skaičių: "))
+    ivestis2 = float(input("Įveskite antrajį skaičių: "))
+    if pasirinkimas == "1":
+        print(f"Jūsų įvestų skaičių suma: {ivestis1 + ivestis2}")
